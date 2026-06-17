@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/djj/spark-project/target/scala-2.12/retailanalysis_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysisWithMySQL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysisWithMySQL$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysis.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysis.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysisLocal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysisLocal$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysisWithMySQL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysisWithMySQL.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysis$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysis$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RetailAnalysisLocal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/djj/spark-project/target/scala-2.12/classes/RetailAnalysisLocal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
