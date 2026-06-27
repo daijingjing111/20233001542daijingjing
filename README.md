@@ -13,6 +13,9 @@
 
 数据集:
 - 来源：UCI Online Retail Dataset
+- 下载地址：https://archive.ics.uci.edu/ml/datasets/online+retail
+- 记录数：541909条
+- 格式：CSV（需自行下载并放置在 data/ 目录下）
 - 记录数：541909条
 - 字段：订单号、商品代码、商品描述、数量、订单时间、单价、客户ID、国家
 
@@ -49,7 +52,8 @@ spark-submit --class RetailAnalysis --master local[2] --driver-memory 1g target/
 方式三：MySQL模式（结果存入MySQL）
 spark-submit --class RetailAnalysisWithMySQL --master local[2] --driver-memory 1g --jars lib/mysql-connector-j-8.0.33.jar target/scala-2.12/retailanalysis_2.12-1.0.jar
 生成可视化图表:python3 python/visualization.py
-
+mysql 查询
+mysql -u root -p123456 -e "SELECT * FROM spark_results.country_sales;"
 实验结果:
 清洗前：541909条
 清洗后：397884条
